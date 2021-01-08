@@ -17,7 +17,7 @@ Companies pay to upload their UI mocks and see how long users take to complete g
 * Read
 * Read/ID
 
-## Mock Schema:
+## UI Schema:
 * CompanyId
 * UiId
 * Task/Notes
