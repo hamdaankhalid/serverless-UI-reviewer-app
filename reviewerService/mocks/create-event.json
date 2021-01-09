@@ -1,0 +1,9 @@
+{
+    "body": "{\"UiId\":1,\"webcamVideo2\":\"blcheckingboo\",\"screenVideo\":\"1234\",\"textReview\":\"this ui was not so great\"}",
+      "requestContext": {
+        "identity": {
+          "cognitoIdentityId": "123abc"
+        }
+    }
+  }
+
