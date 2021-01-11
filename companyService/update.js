@@ -9,7 +9,7 @@ export const main = handler(async (event, context) => {
             ComapnyId: event.requestContext.identity.cognitoIdentityId,
             UiId: event.pathParameters.id,
         },
-        UpdateExpression: "Set content = :content, attachment= :attachment",
+        UpdateExpression: "Set task = :task, link = :link, attachment= :attachment",
         ExpressionAttributeValues: {
             ":task": data.task || null, // Parsed from request body
             ":attachment": data.attachment || null, // Parsed from request body
